@@ -59,7 +59,7 @@ RUN composer selfupdate
 # ADD IN BACKSTOPJS
 
 ENV \
-  BACKSTOPJS_VERSION=6.0.0
+  BACKSTOPJS_VERSION=6.0.1
 
 # Base packages
 RUN apt-get update && \
