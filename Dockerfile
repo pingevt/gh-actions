@@ -53,7 +53,8 @@ RUN gem install circle-cli
 RUN composer selfupdate
 
 # Parallel Composer downloads
-RUN composer -n global require -n "hirak/prestissimo:^0.3"
+# no longer needed with Composer 2
+# RUN composer -n global require -n "hirak/prestissimo:^0.3"
 
 # ADD IN BACKSTOPJS
 
