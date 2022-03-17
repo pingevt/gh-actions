@@ -12,7 +12,7 @@ jobs:
         run: |
           node -v
           npm -v
-      - name: pythin Command
+      - name: python Command
         run: |
           import platform
           print(platform.processor())
