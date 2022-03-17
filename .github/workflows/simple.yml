@@ -7,6 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: echo a string
+        run: bob "Hello World"
+      - name: echo a string
         run: echo "Hello World"
       - name: multiline script
         run: |
