@@ -68,6 +68,7 @@ RUN apt-get update && \
 RUN sudo npm install -g --unsafe-perm=true --allow-root backstopjs@${BACKSTOPJS_VERSION}
 
 RUN sudo npm install -g --unsafe-perm=true --allow-root puppeteer
+RUN sudo npm install -g --unsafe-perm=true --allow-root minimist
 
 # Add fs-extra
 RUN sudo npm install -g fs-extra
